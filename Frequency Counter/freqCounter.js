@@ -1,4 +1,4 @@
-console.log('Hello form the Frequency Counter');
+console.log('Hello, Frequency Counter');
 
 // Write a function that accepts 2 arrays
 // Returns TRUE if The other array contains the squared values of of the numbers from the first array

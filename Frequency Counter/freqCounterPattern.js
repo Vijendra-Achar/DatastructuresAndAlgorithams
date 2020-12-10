@@ -1,4 +1,4 @@
-console.log('Hello form the Frequency Counter Pattern');
+console.log('Hello, Frequency Counter Pattern');
 
 // Write a function that accepts 2 arrays
 // Returns TRUE if The other array contains the squared values of of the numbers from the first array
@@ -39,4 +39,11 @@ const checkSame = (arrOne, arrTwo) => {
   return true;
 };
 
+// Check for True Return value
+console.log(checkSame([1, 2, 3, 4, 5], [25, 4, 9, 16, 1]));
+
+// Check for False Return value
+console.log(checkSame([1, 2, 3, 4, 5], [25, 4, 9, 99, 1]));
+
+// Check for True Return value
 console.log(checkSame([4, 5, 7, 7, 7, 2, 5], [25, 16, 49, 25, 4, 49, 49]));
