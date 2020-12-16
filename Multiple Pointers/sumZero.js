@@ -1,5 +1,20 @@
 console.log('Hello, Multiple Pointers Pattern, Sum Zero Problem');
 
+// Problem Statement - To find two numbers in a given array whose sum will add up to Zero
+
+// Solution - Using the Multiple pointers patten
+// Considereing that this is a sorted array
+// We will first initulize two pointers
+// left which indiactes the start of the array, index = 0
+// right which indiactes the end of the array, index = array.length - 1
+
+// As long as the left and the right pointers do not overlap
+// We check if the sum of the values of the left and the right pointers is equal to zero
+// If true, we return the value
+// If the Sum is greater than 0, we decrement the right pointer
+// If the Sum is less than 0, we increment the right pointer
+// If we could not find the value, we return undefined
+
 const sumZero = (arr) => {
   // Set the left pointer to the start of the array
   let left = 0;
